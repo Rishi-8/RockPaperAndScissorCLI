@@ -9,11 +9,14 @@ public class GameLogic {
 	String winner;
 	
 	public void startGame(){
-		computerChoice =  1+Math.random()*3;
+		
+		computerChoice =  1+Math.random()*3;            //generate a random number in a range of 1 and 3
 		//System.out.println("computerChoice = "+computerChoice);
-		int computerChoiceS = (int)computerChoice;
+		int computerChoiceS = (int)computerChoice;      //remove the decimal point
 		//System.out.println("computerChoice = "+computerChoiceS);
 		
+		
+		//declaring rock paper and scissor values
 		if (computerChoiceS == 1) {
 			chosenElement = "Rock";
 		}
@@ -23,6 +26,7 @@ public class GameLogic {
 		else if (computerChoiceS == 3) {
 			chosenElement = "Scissor";
 		}
+		
 		
 		Player player = new Player();
 		player.choose();
