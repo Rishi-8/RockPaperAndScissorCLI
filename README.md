@@ -1,2 +1,6 @@
 # RockPaperAndScissorCLI
-This my attempt in creating a rock paper and scissor command line interface program
+A console based rock, paper, scissors game which is played between the computer and a human player.
+
+A human player can choose between rock paper and scissor on console
+computer randomly choose between rock paper and scissor
+and as per the conventional rule one wins and the other lose.
